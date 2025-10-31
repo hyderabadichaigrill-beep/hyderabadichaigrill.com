@@ -504,7 +504,8 @@
 
     <script>
       // 🔹 Replace this with your actual Google Apps Script Web App URL
-      // const scriptURL = "https://script.google.com/macros/s/AKfycbxzMo547e10BQ3iN-mePp81llaKQ_PtyHeEhvi-HUW90zA8u7mmfdyLifNGw3KIrE2iTA/exec";
+      // const scriptURL =
+      //   "https://script.google.com/macros/s/AKfycbxzMo547e10BQ3iN-mePp81llaKQ_PtyHeEhvi-HUW90zA8u7mmfdyLifNGw3KIrE2iTA/exec";
       const scriptURL =
         "https://script.google.com/macros/s/AKfycbwVMx1AY3XjUSXFba8OCw78zKOZESgy-jEzm6IBf_nsehoGjjWufdp7CxG6Nk3K5Czl/exec";
 
@@ -513,12 +514,25 @@
         .addEventListener("submit", async function (e) {
           e.preventDefault();
 
+          // Function to convert 24-hour time to 12-hour format with am/pm
+          function to12HourFormat(time24) {
+            let [hour, minute] = time24.split(":").map(Number);
+            const amPm = hour >= 12 ? "PM" : "AM";
+            hour = hour % 12;
+            hour = hour === 0 ? 12 : hour; // convert hour '0' to '12'
+            return `${hour
+              .toString()
+              .padStart(2, "0")}:${minute.toString().padStart(2, "0")} ${amPm}`;
+          }
+
+          const time24 = document.getElementById("time").value; // format HH:MM
+
           // Collect form values
           const name = document.getElementById("name").value.trim() || "Guest";
           const email = document.getElementById("email").value;
           const phone = document.getElementById("phone").value;
           const date = document.getElementById("date").value;
-          const time = document.getElementById("time").value;
+          const time = to12HourFormat(time24); // convert to 12-hour format
           const guests = document.getElementById("guests").value;
 
           // Friendly confirmation alert
