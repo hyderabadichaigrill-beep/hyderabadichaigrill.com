@@ -737,3 +737,40 @@ p {
     padding: 10px;
   }
 }
+
+.fixed-whatsapp {
+  position: fixed;
+  right: 10px; /* distance from right */
+  bottom: 10px; /* distance from bottom */
+  text-align: center;
+  z-index: 1000; /* on top of other elements */
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #555;
+}
+
+.fixed-whatsapp p {
+  margin: 0 0 5px 0;
+  background-color: orange;
+  padding: 0 8px;
+}
+
+.fixed-whatsapp a {
+  display: inline-block;
+}
+
+.btn-breathing img {
+  width: 50px; /* adjust size */
+  height: 50px;
+  animation: breathing 2s infinite;
+  cursor: pointer;
+}
+
+@keyframes breathing {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+}
