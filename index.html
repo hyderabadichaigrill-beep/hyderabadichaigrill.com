@@ -550,6 +550,7 @@
           // Send data to Google Sheet
           try {
             const formData = new FormData(e.target);
+            formData.set("time", time); // send converted time instead of 24-hour time
 
             const response = await fetch(scriptURL, {
               method: "POST",
