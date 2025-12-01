@@ -10,7 +10,7 @@
   <body>
     <header>
       <div class="logo">
-        <img src="logo 3.png" alt="Logo" />
+        <img src="logo 3.png" alt="Logo" priority="high" />
       </div>
       <nav>
         <ul>
@@ -24,7 +24,7 @@
       </nav>
     </header>
     <section class="pic" id="pic">
-      <img src="bg image 1.png" />
+      <img src="bg image 1.png" alt="background-image" priority="high" />
     </section>
     <div class="about">
       <h1>ABOUT US</h1>
@@ -68,9 +68,9 @@
       <div class="menu-card" style="background-image: url('Grill_Plater.webp')">
         <h2 class="menu-head">BBQ PLATTERS</h2>
         <ul class="menu-items">
-          <li>Chicken Mix Grill Platter <span>$8.99</span></li>
+          <li>Chicken Mix Grill Platter <span>$27.99</span></li>
           <li>(1 Ch. Seekh Kabab,2 Hariyali Boti,2 Malai Boti,2 Bihari)</li>
-          <li>Mix Grill Platter <span>$10.99</span></li>
+          <li>Mix Grill Platter <span>$29.99</span></li>
           <li>
             (2 Ch. Bihari,2 Beef Bihari,2 Hariyali,2 Malai,1 Beef Kabab,1 Ch.
             Kabab)
@@ -114,7 +114,7 @@
         <ul class="menu-item">
           <li>Pav/Bread <span>$1.50</span></li>
           <li>Chapati <span>$1.99</span></li>
-          <li>Laccha Paratha <span>$1.99</span></li>
+          <li>Laccha Paratha <span>$2.50</span></li>
           <li>Butter Naan <span>$2.50</span></li>
           <li>Tawa Paratha <span>$2.99</span></li>
           <li>Garlic Naan <span>$3.00</span></li>
@@ -400,9 +400,616 @@
       <div class="menu-card" style="background-image: url('Gulab.png')">
         <h2>DESSERTS</h2>
         <ul class="menu-item">
+          <li>Gulab Jamun <span>$5.99</span></li>
           <li>Carrot Halwa <span>$5.99</span></li>
           <li>Laukey Halwa <span>$6.99</span></li>
         </ul>
+      </div>
+
+      <!-- BBQ & Grill -->
+      <div class="menu-card" style="background-image: url('BBQ&Grill.webp')">
+        <h2>BBQ & GRILL</h2>
+        <table
+          class="menu-table"
+          style="width: 100%; border-collapse: collapse"
+        >
+          <thead>
+            <tr>
+              <th style="text-align: left">Item</th>
+              <th class="price">Half</th>
+              <th class="price">Full</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ch. Tikka Leg</td>
+              <td class="price">$70.00</td>
+              <td class="price">$140.00</td>
+            </tr>
+            <tr>
+              <td>Ch. Boti</td>
+              <td class="price">$90.00</td>
+              <td class="price">$180.00</td>
+            </tr>
+            <tr>
+              <td>Ch. Hariyali Boti</td>
+              <td class="price">$90.00</td>
+              <td class="price">$180.00</td>
+            </tr>
+            <tr>
+              <td>Ch. Malai Boti</td>
+              <td class="price">$90.00</td>
+              <td class="price">$180.00</td>
+            </tr>
+            <tr>
+              <td>Ch. Bihari</td>
+              <td class="price">$90.00</td>
+              <td class="price">$180.00</td>
+            </tr>
+            <tr>
+              <td>Ch. Seekh Kabab</td>
+              <td class="price">$90.00</td>
+              <td class="price">$180.00</td>
+            </tr>
+            <tr>
+              <td>Beef Seekh Kabab</td>
+              <td class="price">$100.00</td>
+              <td class="price">$200.00</td>
+            </tr>
+            <tr>
+              <td>Beef Bihari</td>
+              <td class="price">$100.00</td>
+              <td class="price">$200.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Goat Curries -->
+      <div class="menu-card" style="background-image: url('GoatCurries.webp')">
+        <h2>GOAT CURRIES</h2>
+        <table
+          class="menu-table"
+          style="width: 100%; border-collapse: collapse"
+        >
+          <thead>
+            <tr>
+              <th style="text-align: left">Item</th>
+              <th class="price">Half</th>
+              <th class="price">Full</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Goat Paya</td>
+              <td class="price">$65.00</td>
+              <td class="price">$130.00</td>
+            </tr>
+            <tr>
+              <td>Goat Korma</td>
+              <td class="price">$70.00</td>
+              <td class="price">$150.00</td>
+            </tr>
+            <tr>
+              <td>Dal Goat</td>
+              <td class="price">$75.00</td>
+              <td class="price">$160.00</td>
+            </tr>
+            <tr>
+              <td>Palak Goat</td>
+              <td class="price">$75.00</td>
+              <td class="price">$160.00</td>
+            </tr>
+            <tr>
+              <td>Hyderabadi Goat Kadai</td>
+              <td class="price">$100.00</td>
+              <td class="price">$210.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Chicken Curries -->
+      <div
+        class="menu-card"
+        style="background-image: url('ChickenCurries.webp')"
+      >
+        <h2>CHICKEN CURRIES</h2>
+        <table
+          class="menu-table"
+          style="width: 100%; border-collapse: collapse"
+        >
+          <thead>
+            <tr>
+              <th style="text-align: left">Item</th>
+              <th class="price">Half</th>
+              <th class="price">Full</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ch. Korma</td>
+              <td class="price">$70.00</td>
+              <td class="price">$130.00</td>
+            </tr>
+            <tr>
+              <td>Ch. White Kadai</td>
+              <td class="price">$70.00</td>
+              <td class="price">$130.00</td>
+            </tr>
+            <tr>
+              <td>Ch. Hara Masala</td>
+              <td class="price">$70.00</td>
+              <td class="price">$130.00</td>
+            </tr>
+            <tr>
+              <td>Ch. Peshawari</td>
+              <td class="price">$70.00</td>
+              <td class="price">$130.00</td>
+            </tr>
+            <tr>
+              <td>Ch. Kadai</td>
+              <td class="price">$70.00</td>
+              <td class="price">$130.00</td>
+            </tr>
+            <tr>
+              <td>Ch. White Kadai (Boneless)</td>
+              <td class="price">$75.00</td>
+              <td class="price">$140.00</td>
+            </tr>
+            <tr>
+              <td>Ch. Hara Masala (Boneless)</td>
+              <td class="price">$75.00</td>
+              <td class="price">$140.00</td>
+            </tr>
+            <tr>
+              <td>Ch. Tikka Masala (Boneless)</td>
+              <td class="price">$75.00</td>
+              <td class="price">$140.00</td>
+            </tr>
+            <tr>
+              <td>Palak Chicken (Boneless)</td>
+              <td class="price">$75.00</td>
+              <td class="price">$140.00</td>
+            </tr>
+            <tr>
+              <td>Butter Chicken</td>
+              <td class="price">$80.00</td>
+              <td class="price">$160.00</td>
+            </tr>
+            <tr>
+              <td>Ch. Chatpata</td>
+              <td class="price">$80.00</td>
+              <td class="price">$160.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Veg Curries -->
+      <div class="menu-card" style="background-image: url('VegCurries.webp')">
+        <h2>VEG CURRIES</h2>
+        <table
+          class="menu-table"
+          style="width: 100%; border-collapse: collapse"
+        >
+          <thead>
+            <tr>
+              <th style="text-align: left">Item</th>
+              <th class="price">Half</th>
+              <th class="price">Full</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Mix Vegetable Curry</td>
+              <td class="price">$45.00</td>
+              <td class="price">$80.00</td>
+            </tr>
+            <tr>
+              <td>Plain Palak</td>
+              <td class="price">$45.00</td>
+              <td class="price">$80.00</td>
+            </tr>
+            <tr>
+              <td>Dal Fry</td>
+              <td class="price">$45.00</td>
+              <td class="price">$80.00</td>
+            </tr>
+            <tr>
+              <td>Egg Masala</td>
+              <td class="price">$45.00</td>
+              <td class="price">$80.00</td>
+            </tr>
+            <tr>
+              <td>Yogurt Pakoda Kadi</td>
+              <td class="price">$45.00</td>
+              <td class="price">$80.00</td>
+            </tr>
+            <tr>
+              <td>Dal Tadka</td>
+              <td class="price">$50.00</td>
+              <td class="price">$90.00</td>
+            </tr>
+            <tr>
+              <td>Chana Masala</td>
+              <td class="price">$50.00</td>
+              <td class="price">$90.00</td>
+            </tr>
+            <tr>
+              <td>Bhindi Masala</td>
+              <td class="price">$50.00</td>
+              <td class="price">$90.00</td>
+            </tr>
+            <tr>
+              <td>Palak Paneer</td>
+              <td class="price">$65.00</td>
+              <td class="price">$120.00</td>
+            </tr>
+            <tr>
+              <td>Paneer Tikka Masala</td>
+              <td class="price">$65.00</td>
+              <td class="price">$120.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Rice -->
+      <div class="menu-card" style="background-image: url('Rice.webp')">
+        <h2>RICE</h2>
+        <table
+          class="menu-table"
+          style="width: 100%; border-collapse: collapse"
+        >
+          <thead>
+            <tr>
+              <th style="text-align: left">Item</th>
+              <th class="price">Half</th>
+              <th class="price">Full</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Plain Rice</td>
+              <td class="price">$20.00</td>
+              <td class="price">$35.00</td>
+            </tr>
+            <tr>
+              <td>Jeera Rice</td>
+              <td class="price">$30.00</td>
+              <td class="price">$45.00</td>
+            </tr>
+            <tr>
+              <td>Garlic Jeera Rice</td>
+              <td class="price">$35.00</td>
+              <td class="price">$55.00</td>
+            </tr>
+            <tr>
+              <td>Chicken Biryani</td>
+              <td class="price">$65.00</td>
+              <td class="price">$120.00</td>
+            </tr>
+            <tr>
+              <td>Goat Biryani</td>
+              <td class="price">$75.00</td>
+              <td class="price">$130.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- CHINESE APPETIZERS DRY -->
+      <div
+        class="menu-card"
+        style="background-image: url('ChineseAppetizersDry.webp')"
+      >
+        <h2>CHINESE APPETIZERS DRY</h2>
+        <table
+          class="menu-table"
+          style="width: 100%; border-collapse: collapse"
+        >
+          <thead>
+            <tr>
+              <th style="text-align: left">Item</th>
+              <th class="price">Half</th>
+              <th class="price">Full</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ch. Chilli</td>
+              <td class="price">$70.00</td>
+              <td class="price">$130.00</td>
+            </tr>
+            <tr>
+              <td>Ch. Manchurian</td>
+              <td class="price">$70.00</td>
+              <td class="price">$130.00</td>
+            </tr>
+            <tr>
+              <td>Ch. Garlic</td>
+              <td class="price">$70.00</td>
+              <td class="price">$130.00</td>
+            </tr>
+            <tr>
+              <td>Chicken 65</td>
+              <td class="price">$70.00</td>
+              <td class="price">$130.00</td>
+            </tr>
+            <tr>
+              <td>Ch. Schezwan</td>
+              <td class="price">$70.00</td>
+              <td class="price">$130.00</td>
+            </tr>
+            <tr>
+              <td>Ch. Lollipop</td>
+              <td class="price">$70.00</td>
+              <td class="price">$130.00</td>
+            </tr>
+            <tr>
+              <td>Ch. Schezwan Lollipop</td>
+              <td class="price">$80.00</td>
+              <td class="price">$150.00</td>
+            </tr>
+            <tr>
+              <td>Paneer Chilli</td>
+              <td class="price">$70.00</td>
+              <td class="price">$130.00</td>
+            </tr>
+            <tr>
+              <td>Paneer Manchurian</td>
+              <td class="price">$70.00</td>
+              <td class="price">$130.00</td>
+            </tr>
+            <tr>
+              <td>Paneer 65</td>
+              <td class="price">$70.00</td>
+              <td class="price">$130.00</td>
+            </tr>
+            <tr>
+              <td>Shrimp Chilli</td>
+              <td class="price">$75.00</td>
+              <td class="price">$140.00</td>
+            </tr>
+            <tr>
+              <td>Shrimp Manchurian</td>
+              <td class="price">$75.00</td>
+              <td class="price">$140.00</td>
+            </tr>
+            <tr>
+              <td>Shrimp 65</td>
+              <td class="price">$75.00</td>
+              <td class="price">$140.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- CHINESE GRAVY -->
+      <div class="menu-card" style="background-image: url('CHINESEGRAVY.webp')">
+        <h2>CHINESE GRAVY</h2>
+        <table
+          class="menu-table"
+          style="width: 100%; border-collapse: collapse"
+        >
+          <thead>
+            <tr>
+              <th style="text-align: left">Item</th>
+              <th class="price">Half</th>
+              <th class="price">Full</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ch. Chilli</td>
+              <td class="price">$65.00</td>
+              <td class="price">$120.00</td>
+            </tr>
+            <tr>
+              <td>Ch. Manchurian</td>
+              <td class="price">$65.00</td>
+              <td class="price">$120.00</td>
+            </tr>
+            <tr>
+              <td>Ch. Garlic</td>
+              <td class="price">$65.00</td>
+              <td class="price">$120.00</td>
+            </tr>
+            <tr>
+              <td>Chicken 65</td>
+              <td class="price">$65.00</td>
+              <td class="price">$120.00</td>
+            </tr>
+            <tr>
+              <td>Ch. Schezwan</td>
+              <td class="price">$65.00</td>
+              <td class="price">$120.00</td>
+            </tr>
+            <tr>
+              <td>Ch. Lollipop</td>
+              <td class="price">N/A</td>
+              <td class="price">N/A</td>
+            </tr>
+            <tr>
+              <td>Ch. Schezwan Lollipop</td>
+              <td class="price">N/A</td>
+              <td class="price">N/A</td>
+            </tr>
+            <tr>
+              <td>Paneer Chilli</td>
+              <td class="price">$65.00</td>
+              <td class="price">$120.00</td>
+            </tr>
+            <tr>
+              <td>Paneer Manchurian</td>
+              <td class="price">$65.00</td>
+              <td class="price">$120.00</td>
+            </tr>
+            <tr>
+              <td>Paneer 65</td>
+              <td class="price">$65.00</td>
+              <td class="price">$120.00</td>
+            </tr>
+            <tr>
+              <td>Shrimp Chilli</td>
+              <td class="price">$70.00</td>
+              <td class="price">$130.00</td>
+            </tr>
+            <tr>
+              <td>Shrimp Manchurian</td>
+              <td class="price">$70.00</td>
+              <td class="price">$130.00</td>
+            </tr>
+            <tr>
+              <td>Shrimp 65</td>
+              <td class="price">$70.00</td>
+              <td class="price">$130.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- CHINESE RICE & NOODLES HALF TRAY -->
+      <div
+        class="menu-card"
+        style="background-image: url('CHINESERICE&NOODLEShalfTRAY.webp')"
+      >
+        <h2>CHINESE RICE & NOODLES HALF TRAY</h2>
+        <table
+          class="menu-table"
+          style="width: 100%; border-collapse: collapse"
+        >
+          <thead>
+            <tr>
+              <th style="text-align: left">Item</th>
+              <th class="price" style="text-align: start">VEG</th>
+              <th class="price">EGG/CH</th>
+              <th class="price">SHRIMP</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Fried Rice</td>
+              <td class="price">$60.00</td>
+              <td class="price">$65.00</td>
+              <td class="price">$70.00</td>
+            </tr>
+            <tr>
+              <td>Hakka Noodles</td>
+              <td class="price">$60.00</td>
+              <td class="price">$65.00</td>
+              <td class="price">$70.00</td>
+            </tr>
+            <tr>
+              <td>Schezwan Fried Rice</td>
+              <td class="price">$65.00</td>
+              <td class="price">$70.00</td>
+              <td class="price">$75.00</td>
+            </tr>
+            <tr>
+              <td>Schezwan Hakka Noodles</td>
+              <td class="price">$65.00</td>
+              <td class="price">$70.00</td>
+              <td class="price">$75.00</td>
+            </tr>
+            <tr>
+              <td>Garlic Hakka Noodles</td>
+              <td class="price">$65.00</td>
+              <td class="price">$70.00</td>
+              <td class="price">$75.00</td>
+            </tr>
+            <tr>
+              <td>Tripple Hakka Noodles</td>
+              <td class="price">$75.00</td>
+              <td class="price">$80.00</td>
+              <td class="price">N/A</td>
+            </tr>
+            <tr>
+              <td>Tripple Schezwan Rice</td>
+              <td class="price">$80.00</td>
+              <td class="price">$85.00</td>
+              <td class="price">N/A</td>
+            </tr>
+            <tr>
+              <td>Tripple Schezwan Noodles</td>
+              <td class="price">$80.00</td>
+              <td class="price">$85.00</td>
+              <td class="price">N/A</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- CHINESE RICE & NOODLES FULL TRAY -->
+      <div
+        class="menu-card"
+        style="background-image: url('CHINESERICE&NOODLESFULLTRAY.webp')"
+      >
+        <h2>CHINESE RICE & NOODLES FULL TRAY</h2>
+        <table
+          class="menu-table"
+          style="width: 100%; border-collapse: collapse"
+        >
+          <thead>
+            <tr>
+              <th style="text-align: left">Item</th>
+              <th class="price" style="text-align: start">VEG</th>
+              <th class="price">EGG/CH</th>
+              <th class="price">SHRIMP</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Fried Rice</td>
+              <td class="price">$100.00</td>
+              <td class="price">$110.00</td>
+              <td class="price">$140.00</td>
+            </tr>
+            <tr>
+              <td>Hakka Noodles</td>
+              <td class="price">$100.00</td>
+              <td class="price">$110.00</td>
+              <td class="price">$140.00</td>
+            </tr>
+            <tr>
+              <td>Schezwan Fried Rice</td>
+              <td class="price">$120.00</td>
+              <td class="price">$130.00</td>
+              <td class="price">$150.00</td>
+            </tr>
+            <tr>
+              <td>Schezwan Hakka Noodles</td>
+              <td class="price">$120.00</td>
+              <td class="price">$130.00</td>
+              <td class="price">$150.00</td>
+            </tr>
+            <tr>
+              <td>Garlic Hakka Noodles</td>
+              <td class="price">$120.00</td>
+              <td class="price">$130.00</td>
+              <td class="price">$150.00</td>
+            </tr>
+            <tr>
+              <td>Tripple Hakka Noodles</td>
+              <td class="price">$140.00</td>
+              <td class="price">$150.00</td>
+              <td class="price">N/A</td>
+            </tr>
+            <tr>
+              <td>Tripple Schezwan Noodles</td>
+              <td class="price">$150.00</td>
+              <td class="price">$160.00</td>
+              <td class="price">N/A</td>
+            </tr>
+            <tr>
+              <td>Tripple Schezwan Rice</td>
+              <td class="price">$150.00</td>
+              <td class="price">$160.00</td>
+              <td class="price">N/A</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
 
       <!-- Placeholder -->
@@ -582,13 +1189,21 @@
         class="container3"
         style="background-image: url('Social-media.webp')"
       >
-        <a href="https://www.instagram.com/hyderabadichaiandgrill/#">
-          <img src="insta.png"
+        <a
+          href="https://www.instagram.com/hyderabadichaiandgrill/#"
+          aria-label="Visit our Instagram profile"
+        >
+          <img src="insta.png" alt="Instagram-image"
         /></a>
-        <a href="https://www.facebook.com/profile.php?id=61576559327248">
-          <img src="fb.png"
+        <a
+          href="https://www.facebook.com/profile.php?id=61576559327248"
+          aria-label="Visit our Facebook profile"
+        >
+          <img src="fb.png" alt="Facebook-image"
         /></a>
-        <a href="https://wa.me/18325087112"> <img src="whatsapp.png" /></a>
+        <a href="https://wa.me/18325087112" aria-label="Contact us on WhatsApp">
+          <img src="whatsapp.png" alt="WhatsApp-image"
+        /></a>
       </div>
     </footer>
 
@@ -614,6 +1229,7 @@
         allowfullscreen=""
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
+        title="Location map of Hyderabadi Chai & Grill"
       ></iframe>
     </div>
     <div class="end">
