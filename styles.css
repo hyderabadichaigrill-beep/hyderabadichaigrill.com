@@ -151,7 +151,7 @@ h1 {
 }
 
 .menu-table td {
-  padding: 3px 0;
+  padding: 3px 2px;
 }
 
 .price {
@@ -767,7 +767,8 @@ p {
 }
 
 @keyframes breathing {
-  0%, 100% {
+  0%,
+  100% {
     transform: scale(1);
   }
   50% {
